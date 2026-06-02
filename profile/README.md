@@ -1,4 +1,4 @@
-# AI Vibe Coding Frontend Project
+# good-vibe
 
 이 Organization은 AI 바이브코딩 프론트엔드 실무과정에서 진행하는 파이널 프로젝트를 위한 협업 공간입니다.
 
