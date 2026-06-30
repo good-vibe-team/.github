@@ -1,101 +1,101 @@
-# good-vibe
+# Good Vibe Team
 
-이 Organization은 AI 바이브코딩 프론트엔드 실무과정에서 진행하는 파이널 프로젝트를 위한 협업 공간입니다.
+감정과 상황에 맞는 문화예술 경험을 추천하는 서비스 **MUUD**를 개발한 팀입니다.
 
-아직 프로젝트 주제는 확정되지 않았으며, 주제 확정 이후 서비스 소개, 주요 기능, 배포 링크, 기술 스택 등을 순차적으로 업데이트할 예정입니다.
+MUUD는 사용자가 복잡한 조건을 직접 검색하지 않아도, 현재 기분과 위치를 바탕으로 가까운 문화예술 행사를 발견할 수 있도록 돕는 웹 서비스입니다.
 
-## 목적
+## MUUD
 
-이 프로젝트의 목적은 단순히 기능을 구현하는 것에 그치지 않고, 실제 개발 협업 흐름을 경험하는 것입니다.
+**MUUD**는 질문 기반 문화예술 추천 서비스입니다.
 
-팀은 GitHub Issue, Branch, Pull Request, Code Review를 기반으로 작업을 진행하며, 프로젝트가 끝났을 때 코드뿐만 아니라 협업 과정과 문서도 함께 남기는 것을 목표로 합니다.
+사용자는 짧은 질문에 답하고, 서비스는 사용자의 현재 위치, 날씨, 미세먼지, 감정 상태를 함께 고려해 지금 가기 좋은 문화예술 행사를 추천합니다.
+
+| 항목         | 내용                                     |
+| ---------- | -------------------------------------- |
+| Service    | MUUD / Good Vibe                       |
+| Production | https://muud-one.vercel.app/           |
+| Repository | https://github.com/good-vibe-team/muud |
+| Team       | Good Vibe Team                         |
+
+## Preview
+
+> 이미지 삽입 영역
+> 서비스 대표 화면 또는 추천 결과 화면을 넣습니다.
+> 권장 경로: `profile/images/muud-preview.png`
+
+```md
+![MUUD Preview](./images/muud-preview.png)
+```
+
+## 주요 기능
+
+| 기능        | 설명                                       |
+| --------- | ---------------------------------------- |
+| 질문 기반 추천  | 사용자의 감정과 상황을 질문으로 수집해 문화예술 행사를 추천합니다.    |
+| 위치 기반 탐색  | 현재 위치 또는 사용자가 설정한 위치를 기준으로 주변 행사를 탐색합니다. |
+| 날씨·대기질 반영 | 날씨와 미세먼지 정보를 추천 문구와 행사 추천에 반영합니다.        |
+| 관심 행사 저장  | 마음에 드는 행사를 저장하고 다시 확인할 수 있습니다.           |
+| 마이페이지     | 최근 추천 결과와 관심 행사를 확인할 수 있습니다.             |
+
+## 서비스 흐름
+
+> 이미지 삽입 영역
+> 추천 진입 → 위치 설정 → 질문 답변 → 추천 결과 흐름을 보여주는 다이어그램을 넣습니다.
+> 권장 경로: `profile/images/muud-user-flow.png`
+
+```md
+![MUUD User Flow](./images/muud-user-flow.png)
+```
+
+```txt
+추천받기 진입
+→ 추천 사용 가능 여부 확인
+→ 위치 확인 또는 수동 위치 설정
+→ 질문 답변
+→ 날씨·미세먼지 반영
+→ 문화예술 행사 추천
+→ 관심 행사 저장 또는 상세 확인
+```
+
+## Tech Stack
+
+| 구분           | 기술                                       |
+| ------------ | ---------------------------------------- |
+| Framework    | Next.js App Router                       |
+| Language     | TypeScript                               |
+| UI           | React                                    |
+| Styling      | Tailwind CSS                             |
+| Server State | TanStack Query                           |
+| ORM          | Prisma                                   |
+| Database     | Supabase PostgreSQL                      |
+| Map          | Kakao Maps JavaScript SDK                |
+| External API | 문화행사 API, 기상청 API, 에어코리아 API, Gemini API |
+| Deploy       | Vercel                                   |
+
+## Team
+
+| 이름  | 역할                                |
+| --- | --------------------------------- |
+| 신성우 | Team Lead / Full-stack / PM |
+| 강송희 | design / Full-stack / PD               |
+| 민정아 | Full-stack / AI                              |
+| 채준병 | Full-stack                                 |
+| 우스만 | Full-stack                                |
+
+## Documents
+
+| 문서        | 설명                           |
+| --------- | ---------------------------- |
+| PRD       | 서비스 목적, 사용자 문제, MVP 범위       |
+| 요구사항 정의서  | 화면과 도메인별 기능 요구사항             |
+| ERD       | 데이터 구조와 관계                   |
+| TDD       | 기술 스택, 아키텍처, 구현 기준           |
+| API 명세서   | 내부 API 요청·응답 기준              |
+| Git 협업 전략 | Issue, Branch, Commit, PR 규칙 |
+
+문서 링크: https://full-steam-0ff.notion.site/MUUD-3726f75da60e80d7b6f7d1f4b2940dc5?source=copy_link
 
 ## Repository
 
-| Repository | 설명 |
-| --- | --- |
-| `frontend` | 프론트엔드 애플리케이션 개발 |
-| `backend` | 백엔드 API 및 서버 로직 개발 |
-
-추후 프로젝트 구조가 변경되면 Repository 목록도 함께 업데이트합니다.
-
-## 협업 방식
-
-이 프로젝트는 GitHub Flow를 기반으로 진행합니다.
-
-기본 흐름은 다음과 같습니다.
-
-```txt
-Issue 생성
-→ Branch 생성
-→ 작업 진행
-→ Commit
-→ Pull Request 생성
-→ Code Review
-→ main 브랜치 병합
-````
-
-## Branch 규칙
-
-```txt
-type/#issue-number-short-description
-```
-
-예시:
-
-```txt
-feature/#1-login-page
-fix/#2-header-layout
-refactor/#3-user-service
-docs/#4-readme-update
-```
-
-## Commit 규칙
-
-```txt
-type: 작업 내용 (#이슈번호)
-```
-
-예시:
-
-```txt
-feat: 로그인 페이지 구현 (#1)
-fix: 모바일 헤더 레이아웃 수정 (#2)
-docs: README 실행 방법 추가 (#4)
-```
-
-## Issue / Pull Request
-
-모든 작업은 Issue를 먼저 생성한 뒤 진행합니다.
-
-Pull Request에는 관련 Issue, 작업 내용, 확인 방법, 리뷰 요청 사항을 작성합니다.
-
-```txt
-Closes #이슈번호
-```
-
-형식으로 Issue와 PR을 연결합니다.
-
-## 문서
-
-각 Repository에는 필요한 문서를 함께 관리합니다.
-
-| 문서                           | 설명                    |
-| ---------------------------- | --------------------- |
-| `docs/git-strategy.md`       | Git 협업 전략             |
-| `docs/backend-convention.md` | Backend 협업 규칙         |
-| `README.md`                  | Repository 소개 및 실행 방법 |
-
-## 업데이트 예정
-
-프로젝트 주제 확정 후 아래 내용을 추가할 예정입니다.
-
-* 서비스 이름
-* 서비스 한 줄 소개
-* 주요 기능
-* 기술 스택
-* 아키텍처
-* 배포 URL
-* 팀원 역할
-* 최종 발표 자료
+* MUUD Repository: https://github.com/good-vibe-team/muud
 
